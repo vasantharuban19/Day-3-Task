@@ -1,0 +1,87 @@
+==> 4th question
+
+Task 1: Simple Programs todo for variables
+
+1. Declare four variables without assigning values and print them in console
+    var a;
+    let b;
+    const c;
+    var d;
+    console.log(a, b, c, d);
+
+2. How to get value of the variable myvar as output
+   var myvar= 1;
+   console.log("myvar");
+     Ans: console.log(myvar);
+
+3. Declare variables to store your first name, last name, marital status, country and age in multiple lines
+   var firstname = "vasantharuban";
+   var lastname = "S";
+   var maritalstatus = "Single";
+   var country = "India";
+   var age = 23;
+
+4. Declare variables to store your first name, last name, marital status, country and age in a single line
+   var firstname = "vasantharuban", lastname = "S", maritalstatus = "Single", country = "India", age = 23;
+
+5. Declare variables and assign string, boolean, undefined and null data types
+
+I am 25 years old.      
+You are 30 years old.
+   var name = "vasanth";
+   var age = 23;
+   var married = false;
+   var address;
+   var country = null;
+
+6. Convert the string to integer
+
+parseInt()
+Plus sign(+)
+
+7. Write 6 statement which provide truthy & falsey values.
+     // Falsy values
+   if (false) console.log("This is false");         // will not run
+   if (0) console.log("This is zero");              //   ""
+   if ('') console.log("This is an empty string");  //   ""
+   if (null) console.log("This is null");           //   ""
+   if (undefined) console.log("This is undefined"); //   ""
+   if (NaN) console.log("This is NaN");             //   ""
+
+     // Truthy values
+   if (true) console.log("This is true");                       // will run
+   if (1) console.log("This is one");                           // ""
+   if ('Hello') console.log("This is a non-empty string");      // ""
+   if ([]) console.log("This is an empty array");               // ""
+   if ({}) console.log("This is an empty object");              // ""
+   if (function() {}) console.log("This is an empty function"); // ""
+
+Task-2: Simple Programs todo for Operators
+
+1. Square of a number
+   var number = 6;
+   var square = number**2;
+   console.log(square); output:36
+
+2. Swapping 2 numbers
+   var a = 10;
+   var b = 20;
+   a = a+b;
+   b= a-b;
+   a= a-b;
+   console.log(a);
+   console.log(b);
+
+3. Addition of 3 numbers
+   var a = 5;
+   var b = 10;
+   var c = 20;
+   var d = a+b+c;
+   console.log(d);
+
+4. Celsius to Fahrenheit conversion
+   var celsius = 100;
+   var fahrenheit = 1.8 * celsius + 32;
+   console.log(`${celsius} Celsius = ${fahrenheit} Fahrenheit`); Output: 100 Celsius = 212 Fahrenheit
+
+5. Meter to miles
